@@ -1,2 +1,92 @@
-# Password-Manager-CLI
-A simple command-line interface (CLI) password manager tool developed for a session presented during the Society of Cybersecurity (SOC) Winter Bootcamp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts.
+# Password Manager CLI
+
+A simple command-line interface (CLI) password manager tool was developed for a session presented during the SOC Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts.
+
+## Features
+
+- **Secure Vaults:** Safely store your passwords in encrypted vaults (encryption was given as a self-task for students)
+- **Simple Commands:** Easy-to-use commands for adding, listing, and retrieving passwords.
+- **Colorful Terminal Output:** Utilizes the `rich` library for a visually appealing and user-friendly interface.
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have `Python` and `PIP` installed on your system.
+
+### Installation
+
+1. Make a new directory (folder):
+
+   ```bash
+   mkdir password-manager
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd password-manager
+   ```
+3. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ahmad-Alsaleh/Password-Manager-CLI.git
+   ```
+4. Install dependencies:
+
+   ```bash
+   # Windows
+   pip install -r requirements.txt
+
+   # Mac/Linux
+   pip3 install -r requirements.txt
+   ```
+
+## Usage
+
+**IMPORTANT NOTE: if you are using Mac/Linux, replace every `python` with `python3`.**
+
+### Notation 
+* Square brackets `[VALUE]`: what in between is optional.
+* Angular brackets `<VALUE>`: this is a placeholder. That is, it must be replaced by a value.
+
+### General use case
+
+```bash
+python password_manager.py --vault-name <name> --master-password <password> COMMAND [OPTIONS]
+```
+
+### CLI Commands
+
+* `git` Retrieve the password for a specified account.
+
+    ```bash
+    python password_manager.py --vault-name <name> --master-password <password> get <account-name>
+    ```
+
+* `add` Add a new password to the vault.
+    ```bash
+    python password_manager.py --vault-name <name> --master-password <password> add <account-name> <password>
+    ```
+
+* `list` List all accounts in the vault (optionally displaying passwords).
+    ```bash
+    python password_manager.py --vault-name <name> --master-password <password> list [--show-passwords]
+    ```
+
+## Libraries Used
+1. `argparse`: To make the CLI app.
+2. `os`: To perform operation on files.
+3. `rich` (optional): To create a colorful terminal output.
+
+## Main Topics Covered
+1. CLI App Development
+2. Functions
+3. File I/O
+4. Code Organization
+5. f-strings
+6. Conditional Statements (if statements)
+
+## Acknowledgments
+This project was written during the SOC Winter Boot Camp for educational purposes.
+
+Feel free to contribute and enhance this educational project!
