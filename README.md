@@ -46,12 +46,26 @@ Ensure you have `Python` and `PIP` installed on your system.
    ```bash
    git clone https://github.com/Ahmad-Alsaleh/Password-Manager-CLI.git
    ```
-4. Install dependencies:
+4. (Optional, but recommended) Make a virtual environment:
+    ```bash
+    # Windows
+    python -m venv venv # creating the virtual environment
+    .\venv\Scripts\activate # activating the virtual environment
+    ```
+    
+    ```bash
+    # Mac/Linux
+    python3 -m venv venv # creating the virtual environment
+    source venv/bin/activate # activating the virtual environment
+    ```
+5. Install dependencies:
 
    ```bash
    # Windows
    pip install -r requirements.txt
+   ```
 
+   ```bash
    # Mac/Linux
    pip3 install -r requirements.txt
    ```
