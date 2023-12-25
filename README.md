@@ -8,6 +8,21 @@ A simple command-line interface (CLI) password manager tool was developed for a 
 - **Simple Commands:** Easy-to-use commands for adding, listing, and retrieving passwords.
 - **Colorful Terminal Output:** Utilizes the `rich` library for a visually appealing and user-friendly interface.
 
+## Main Topics Covered
+
+1. CLI App Development
+2. Functions
+3. File I/O
+4. Code Organization
+5. f-strings
+6. Conditional Statements (if statements)
+
+## Libraries Used
+
+1. `argparse`: To make the CLI app.
+2. `os`: To perform operation on files.
+3. `rich` (optional): To create a colorful terminal output.
+
 ## Getting Started
 
 ### Prerequisites
@@ -45,7 +60,8 @@ Ensure you have `Python` and `PIP` installed on your system.
 
 **IMPORTANT NOTE: if you are using Mac/Linux, replace every `python` with `python3`.**
 
-### Notation 
+### Notation
+
 * Square brackets `[VALUE]`: what in between is optional.
 * Angular brackets `<VALUE>`: this is a placeholder. That is, it must be replaced by a value.
 
@@ -59,34 +75,22 @@ python password_manager.py --vault-name <name> --master-password <password> COMM
 
 * `git` Retrieve the password for a specified account.
 
-    ```bash
-    python password_manager.py --vault-name <name> --master-password <password> get <account-name>
-    ```
-
+  ```bash
+  python password_manager.py --vault-name <name> --master-password <password> get <account-name>
+  ```
 * `add` Add a new password to the vault.
-    ```bash
-    python password_manager.py --vault-name <name> --master-password <password> add <account-name> <password>
-    ```
 
+  ```bash
+  python password_manager.py --vault-name <name> --master-password <password> add <account-name> <password>
+  ```
 * `list` List all accounts in the vault (optionally displaying passwords).
-    ```bash
-    python password_manager.py --vault-name <name> --master-password <password> list [--show-passwords]
-    ```
 
-## Libraries Used
-1. `argparse`: To make the CLI app.
-2. `os`: To perform operation on files.
-3. `rich` (optional): To create a colorful terminal output.
-
-## Main Topics Covered
-1. CLI App Development
-2. Functions
-3. File I/O
-4. Code Organization
-5. f-strings
-6. Conditional Statements (if statements)
+  ```bash
+  python password_manager.py --vault-name <name> --master-password <password> list [--show-passwords]
+  ```
 
 ## Acknowledgments
+
 This project was written during the SOC Winter Boot Camp for educational purposes.
 
 Feel free to contribute and enhance this educational project!
