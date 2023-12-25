@@ -1,6 +1,6 @@
 # Password Manager CLI
 
-A simple command-line interface (CLI) password manager tool was developed for a session presented during the SOC Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts.
+A simple command-line interface (CLI) password manager tool was developed for a session presented during the Society of Cybersecurity (SOC) Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts. The recording of the session can be found [here](https://youtu.be/fbM739icFls?t=2457).
 
 ## Features
 
