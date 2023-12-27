@@ -2,7 +2,7 @@
 
 A simple command-line interface (CLI) password manager tool that was developed for a session presented during the Society of Cybersecurity (SOC) Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts. The recordings of the sessions can be found here: [Part 1](https://youtu.be/fbM739icFls?t=2457) and [Part 2](https://www.youtube.com/watch?v=JsLU1XCZt_o).
 
-Want to get started? Jump to [Getting Started](#getting-started)!
+**Want to get started quickly? Jump to [Getting Started](#getting-started)!**
 
 ## Features
 
