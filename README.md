@@ -89,7 +89,7 @@ python password_manager.py --vault-name <name> --master-password <password> COMM
 
 ### CLI Commands
 
-* `git` Retrieve the password for a specified account.
+* `get` Retrieve the password for a specified account.
 
   ```bash
   python password_manager.py --vault-name <name> --master-password <password> get <account-name>
