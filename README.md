@@ -1,6 +1,6 @@
 # Password Manager CLI
 
-A simple command-line interface (CLI) password manager tool was developed for a session presented during the Society of Cybersecurity (SOC) Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts. The recording of the session can be found [here](https://youtu.be/fbM739icFls?t=2457).
+A simple command-line interface (CLI) password manager tool that was developed for a session presented during the Society of Cybersecurity (SOC) Winter Boot Camp for educational purposes. This project provides hands-on experience with Python, CLI app development, file I/O, and basic coding concepts. The recordings of the sessions can be found here: [Part 1](https://youtu.be/fbM739icFls?t=2457) and [Part 2](Winter Bootcamp Session #2 uploaded: https://www.youtube.com/watch?v=JsLU1XCZt_o)
 
 ## Features
 
@@ -20,14 +20,14 @@ A simple command-line interface (CLI) password manager tool was developed for a 
 ## Libraries Used
 
 1. `argparse`: To make the CLI app.
-2. `os`: To perform operation on files.
-3. `rich` (optional): To create a colorful terminal output.
+2. `os`: To operate on files.
+3. `rich` (optional): Create a colorful terminal output.
 
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have `Python` and `PIP` installed on your system.
+Ensure your system has `Python` and `PIP` installed.
 
 ### Installation
 
@@ -77,7 +77,7 @@ Ensure you have `Python` and `PIP` installed on your system.
 ### Notation
 
 * Square brackets `[VALUE]`: what in between is optional.
-* Angular brackets `<VALUE>`: this is a placeholder. That is, it must be replaced by a value.
+* Angular brackets `<VALUE>`: this is a placeholder. That is, a value must replace it.
 
 ### General use case
 
