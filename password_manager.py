@@ -125,12 +125,12 @@ list_command_parser.add_argument(
 )
 
 # `get` command
-list_command_parser = subparser.add_parser(
+get_command_parser = subparser.add_parser(
     "get",
     help="Get a password for an account",
 )
 
-list_command_parser.add_argument(
+get_command_parser.add_argument(
     "account_name",
     help="Account name to show the password for",
 )
